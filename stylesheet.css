@@ -1,0 +1,51 @@
+.testing2{
+    background-color: rebeccapurple;
+}
+.guideBoxContainer {
+    max-width: 60vw;
+}
+
+.guideBoxContainer2 {
+    padding-right: 300px;
+}
+
+#contentLinebreakContainer {
+    padding-right: 560px;
+}
+
+#guideText {
+    color: greenyellow;
+    font-size: 1.15em;
+}
+
+#contentBox {
+    padding-right: 500px;
+}
+
+@media (max-width:1520px) {
+    .patchnoteBox {
+        display: none;
+    }
+    .guideBoxContainer {
+      max-width: 100vw;  
+    }
+    .guideBoxContainer2 {
+        padding-right: 0px;
+    }
+
+    #contentLinebreakContainer {
+        padding-right: 0px;
+    }
+
+    #contentBox {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+}
+
+@media (max-width:992px) {
+    #contentBox {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Center Content</title>
+  <style>
+    /* Fixed position for the text box */
+    .fixed-textbox {
+      position: fixed;
+      right: 0;
+      top: 0;
+      width: 450px; /* Width of the textbox */
+      height: 50px;
+      background-color: lightgray;
+    }
+
+    /* Container for the centered content */
+    .centered-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh; /* Full height */
+      padding-right: 450px; /* Leave space for the textbox */
+    }
+
+    /* Style for the centered div */
+    .centered-content {
+      background-color: lightblue;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- The fixed text box on the right -->
+  <div class="fixed-textbox">
+    <input type="text" placeholder="Fixed textbox" />
+  </div>
+
+  <!-- The centered content -->
+  <div class="centered-container">
+    <div class="centered-content">
+      ABC
+    </div>
+  </div>
+
+</body>
+</html>
